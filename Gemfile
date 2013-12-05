@@ -22,6 +22,8 @@ group :assets do
   gem "less-rails", "~> 2.4.2"
   gem "less", "~> 2.4.0"
   gem 'therubyracer'
+  gem 'will_paginate-bootstrap', '0.2.5'
+  gem 'will_paginate', '~> 3.0'
 end
 
 gem 'jquery-rails'
