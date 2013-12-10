@@ -1,0 +1,140 @@
+<!-- VIDEO HEADER -->
+<div class='space'></div>
+<div class= 'container' style="width: 100%; margin:auto;">
+  <div id='span' class='span6 xlarge-text' style='min-width:300px'>
+    <b><h2>Things</h2><b>
+
+      <br>
+        <%=link_to "I need a solution", "#idea_creator", :class => "btn-large btn-warning", :id => "solution_button", :style => "color:black", :data => {:filter => ".graphics"} %><br>
+        <br>
+        <br>
+        <%=link_to "I'm a developer", "#for_devs", :class => "btn-large btn-warning", :id => "dev_button", :style => "color:black", :data => {:filter => ".graphics"}%>
+    </div>
+    <div id='video' class="span6 videoratio" style='min-width:465px'>
+      <iframe class="stretch" width="1100" height="680" src="//www.youtube.com/embed/ZoCyL_Pqzu8?rel=0&showinfo=0&controls=1&" frameborder="0" allowfullscreen="true"></iframe>
+    </div>
+  </div>
+</div>
+
+<!-- ABOUT US -->
+<div class="marketing">
+  <div id="about_us">
+    <a name="about_us"></a>
+    <div class="row-fluid">
+      <h2 class="center standart-h2title "> <span class="large-text"><span class="main-color">OUR</span> MISSION</span>
+      </h2>
+      <br>
+      <div class='span6 center lead'>
+        <p>To facilitate a community-minded platform that connects talented web developers to people in need of a technical solution: those with a social cause, who are not tech-savvy, or lack financial resources. </p>
+        <br>
+        <p>We provide a pro-bono service and adhere to an open-source philosophy. For developers, our platform provides numerous opportunities to practice and learn new tech skills, solo or in teams, for hackathons, course final projects, or as a hobby in your free time.</p>
+        <br>
+        <p> Coders for Humanity is a place to meet and form an agreement on the project goals and deliverables and build beautiful and meaningful things together.</p>
+        <br>
+
+
+      </div>
+    </div> <!-- end row-fluid div -->
+  </div> <!-- end about us div -->
+  <!-- END ABOUT US -->
+  <!-- FEATURED PROJECTS -->
+  <div id="featured">
+    <a name="#projects_home"></a>
+    <div class="row-fluid">
+      <h2 class="center standart-h2title "> <span class="large-text"><span class="main-color">Featured</span> Projects</span><br></h2>
+      <div class="span4 offset2">
+        <i class="main-color"></i>
+        <h3 class="features-title"> <span class="firstword">Project: </span> Build me a system I can use to catalogue and display the plants in my nursery</h3>
+        <p class="features">My current process involves taking a photo of each plant, printing the photo, and displaying it in a folder with a hand-written description.  Each time I stock a new plant I have to rearrange the order of the folder. Printing is expensive so I only have one folder to show my customers.</p>
+
+
+        <br>
+      </div>
+      <div class="span4">
+        <i class="main-color"></i>
+        <h3 class="features-title"> <span class="firstword">Project: </span> Organize and Optimize After-School Tutoring</h3>
+        <p class="features">I am a third grade teacher who has been organizing grade-wide tutoring for all students in need.  The current organization of this process heavily relies on hand-written spread sheets and manually contacting volunteers.  This could be done far more efficiently through an automated online system where volunteers could register for an available day, time, and subject. Students would also have the opportunity of signing up with a specific tutor.</p>
+        <br>
+      </div>
+      <div class="span12">
+
+        </div>
+      </div> <!-- end row-fluid div -->
+    </div> <!-- end featured div -->
+    <!-- END FEATURED PROJECTS -->
+
+    <!-- VALUE FOR CREATORS -->
+    <div id= "creators">
+      <a name="idea_creator">
+      </a>
+
+      <div class="row-fluid">
+        <h2 class="center standart-h2title ">
+          <span class="large-text">
+            I NEED A <span class="main-color">SOLUTION...</span>
+          </span>
+        </h2>
+        <br>
+
+        <div class='span3 large-text'>
+          <p>
+            Sign up and post your individual or organizational technical challenge to our jobs board.
+          </p>
+          <br>
+        </div>
+
+        <div class="span1 arrow-right1">
+        </div>
+
+        <div class='span3 large-text second'>
+          <p>
+            Through a process of public discussion, your challenge will be reviewed and refined by our community of talented developers.
+          </p>
+          <br>
+        </div>
+
+        <div class="span1 arrow-right2">
+        </div>
+
+        <div class='span3 large-text'>
+          <p>
+            Developers will then contact you directly to form a collaboration and build out your idea.
+          </p>
+          <br>
+        </div>
+
+        <div class='span2 offset5'>
+
+        </div>
+      </div> <!-- end row-fluid div -->
+    </div> <!-- end creators div -->
+    <!-- END VALUE FOR CREATORS-->
+
+    <!-- VALUE FOR DEVS -->
+    <div id="developers">
+      <div class="row-fluid">
+        <a name="for_devs"></a>
+        <h2 class="center standart-h2title "> <span class="large-text">I'm A <span class="main-color">Developer...</span></span>
+        </h2>
+        <br>
+        <div class='span6'>
+          <img src='https://drupal.org/files/x-all-the-things-template.png'>
+        </div>
+        <div class='span4 offset5 large-text xspace'>
+          <p>Find a real-world problem to help solve</p>
+          <br>
+          <p>Join a team or work solo</p>
+          <br>
+          <p>Challenge and build your coding skills and learn new concepts</p>
+          <br>
+        </div>
+        <br>
+        <div class='span2 offset7'>
+          <form method="get" action="/auth/github">
+            <input class="btn btn-primary btn-block" type="submit" id="sign-in-google" value="Sign In with Github">
+          </form>
+        </div>
+      </div> <!-- end row-fluid div -->
+    </div> <!-- end developers div -->
+  </div>
+
