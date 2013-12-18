@@ -14,3 +14,14 @@
 //= require jquery_ujs
 //= require twitter/bootstrap
 //= require_tree .
+// $(document).ready(function(){
+//   console.log("are we even on the freaking page?")
+
+//  $("td:nth-child(2)").hide(); 
+//   $("link_to").click(function() {
+//    event.preventDefault();
+//    $("td:nth-child(2)").show("slow");
+
+//   });
+ 
+// });
