@@ -1,1 +1,1 @@
-Learning how bootstrap works.
+Learning how bootstrap works in a Rails app.
